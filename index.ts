@@ -15,7 +15,7 @@ app.get('/', (request: Request, response: Response) => {
 });
 
 // Define the firts route of APP
-app.get('/7eo', (request: Request, response: Response) => {
+app.get('/About', (request: Request, response: Response) => {
     // Hello World :D
     response.send('Leobardo Daniel Gonzalez Aldamas - Node - First Time');
 });
